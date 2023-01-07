@@ -15,7 +15,7 @@ function Home() {
             <div className="container  d-flex align-items-center justify-content-start justify-content-lg-center">
                 <div className='row w-100 '>
 
-                    <div className='col-6 d-flex justify-content-start align-items-center'>
+                    <div className='col-lg-6 d-flex justify-content-lg-start justify-content-center align-items-center'>
                         <div className="left">
                             <span>Hello In My Portofolio</span>
                             <h1 className='my-4'>{Data.name}</h1>
