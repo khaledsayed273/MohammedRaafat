@@ -1,0 +1,49 @@
+
+
+@media (min-width: 768px) {
+
+    .certification .card .image{
+        height: 250px !important;
+    }
+}
+
+
+@media (min-width: 992px) {
+
+    .certification .card .image{
+        height: 250px !important;
+    }
+}
+
+.certification .card{
+    background-color: rgba(17, 13, 13, 0.575);
+    border-radius: 15px;
+}
+
+
+.certification .card .image{
+    overflow: hidden;
+    border-radius: 15px 15px 0 0;
+}
+
+.certification .card .image img{
+    overflow: hidden;
+}
+.certification .card p{
+    color: white;
+    padding: 10px 10px 0;
+    font-size: 14px;
+    height: 70px;
+    overflow: auto;
+    
+
+}
+
+::-webkit-scrollbar{
+    width: 15px;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: rgb(45, 50, 59);
+}
+
