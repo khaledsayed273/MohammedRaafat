@@ -17,30 +17,30 @@ nav{
 }
 
 ul{
-    list-style: none;
-    padding: 0;
+    list-style: none !important;
+    padding: 0 !important;
 }
 
 
 
 a{
     padding: 20px 15px;
-    color: white;
-    text-decoration: none;
-    transition: color 0.2s linear 0s;
-    display: block;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white !important;
+    text-decoration: none !important;
+    transition: color 0.2s linear 0s !important;
+    display: block !important;
+    font-family: Verdana, Geneva, Tahoma, sans-serif !important;
 }
 
 a:hover{
-    color: rgb(104, 193, 133);
-    background-color: #7f959940;
+    color: rgb(104, 193, 133) !important;
+    background-color: #7f959940 !important;
 }
 
 a.active{
-    background-color: #7f959940 ;
+    background-color: #7f959940 !important;
 }
 
 a svg{
-    margin-right: .75rem;
+    margin-right: .75rem ;
 }
